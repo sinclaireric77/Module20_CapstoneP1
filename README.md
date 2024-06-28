@@ -19,6 +19,7 @@ As an avid golfer and a 4 handicap, I understand the value of working on every p
 In this module, we will look at the stats from the PGA tour and try to answer the following questions:
 
 a) Are there categories or aspects of the game that are more important than others?
+
 b) What features or qualities a golfer should focus on and train to make it to the next level?
 
 2nd part – Data understanding
@@ -26,14 +27,16 @@ The data comes from the PGA tour and is available for everyone to download at: h
 There are tons of categories and data for the years from 2008 to 2024. Some categories have data older than that, but the target goes back to 2008 only. That's when the PGA tour initiated the tour championship where the 30 best players face off in a championship event. This is going to be our target.
 Based on all the features, did a player make it to the tour championship?
 On top of the target, we will use the following features to build our dataset:
-•	Tee to green stats, which includes strokes gained off the tee, strokes gained on approach and strokes gained around the green
-•	Putting stats
-•	Driving stats, which include distance, accuracy, smash factor, rough tendency, percentage of yardage covered, spin rate, apex, distance from the edge of fairway, clubhead speed, carry distance and carry efficiency
-•	Approach to green stats, which include green in regulation, GIR under 75 yards, GIR over 200 yards, GIR from the bunker, GIR from other areas, Going for it, proximity to the hole, proximity from under 100 yard, proximity from over 275 yards and proximity from the rough.
-•	Scrambling stats
+
+- Tee to green stats, which includes strokes gained off the tee, strokes gained on approach and strokes gained around the green
+- Putting stats
+- Driving stats, which include distance, accuracy, smash factor, rough tendency, percentage of yardage covered, spin rate, apex, distance from the edge of fairway, clubhead speed, carry distance and carry efficiency
+- Approach to green stats, which include green in regulation, GIR under 75 yards, GIR over 200 yards, GIR from the bunker, GIR from other areas, Going for it, proximity to the hole, proximity from under 100 yard, proximity from over 275 yards and proximity from the rough
+- Scrambling stats
 
 3rd part – Data Preparation
 The trickiest part here was to upload all the data to a single file at the time. Because the PGA tour stats are online and downloadable by year, it had to be done manually for each statistic
+
 -	Uploaded all data, file by file – one per year and per statistic
 -	Added all the stats together
 -	Created 2 functions to convert feet and inches in decimal and string with percentage to numbers
