@@ -47,11 +47,13 @@ The trickiest part here was to upload all the data to a single file at the time.
 In this section, I looked at different 4 models each (Logistic Regression, Decision Tree, KNN and Support Vector Machine):
 -	Created a pipeline with StandardScaler() and GridSearch for each of them
 
-Results
-Logistic Regression, score of 91.2% with liblinear, l1 and C=0.5
-Decision Tree, score of 86.1% with gini and max_depth = 4
-KNN, score of 89.0% with distance and n_neighbors=12
-SVM, score of 91.8% with linear and degree=2
+Results:
+
+- Logistic Regression, score of 91.2% with liblinear, l1 and C=0.5
+- Decision Tree, score of 86.1% with gini and max_depth = 4
+- KNN, score of 89.0% with distance and n_neighbors=12
+- SVM, score of 91.8% with linear and degree=2
+
 The best model ended up being the Support Vector Machine. Note also that all models ran roughly the same amount of time for total processing.
 
 5th part – Evaluation
@@ -63,9 +65,12 @@ The top 6 features are:
 •	4- Strokes gained around the green
 •	5- Avoiding the rough
 •	6- Carry Efficiency
- 
+
+
 
 5th part – Deployment
 So what does this mean in real terms?
+
 It looks like “strokes gained off the tee” is the most important features, but looking at other stats the distance (dd_rank) is not as important as avoiding the rough (dr_rough_p) and being efficient at keeping the ball in the fairway (dr_carry_eff). That means a golfer should focus more on accuracy off the tee versus trying to get more distance. This reflects really well for 2024 where the most successful golfer Scottie Scheffler is not the longest off the tee, but he's one of the most accurate.
+
 Next, we can also see that putting is a really important factor and that proximity to the hole is not (proxi_hole). That means that a great putter can compensate for lacunes in their long game (iron play). This is interesting because personally this is new to me. I always practiced my iron play a lot more for accuracy compared to putting. Putting is no fun to practice but I guess it should be a bigger focus for trainers.
