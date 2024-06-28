@@ -2,7 +2,7 @@
 
 This is a short summary of the work involved in this project. There are 6 parts to the Jupyter Notebook.
 
-•	Business understanding
+- Business understanding
 •	Data understanding
 •	Data preparation
 •	Modeling
