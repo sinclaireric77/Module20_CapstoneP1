@@ -17,6 +17,7 @@ https://github.com/sinclaireric77/Module20_CapstoneP1/blob/main/Capstone_v02.ipy
 1st part – Business understanding
 As an avid golfer and a 4 handicap, I understand the value of working on every part of the game. However, too many people focus only on specifics like hitting the ball as far as possible and neglect other parts of their training. Hiring a specialized coach is expensive, where do we put the efforts to have the biggest return? What aspect of the game should we work on first?
 In this module, we will look at the stats from the PGA tour and try to answer the following questions:
+
 a) Are there categories or aspects of the game that are more important than others?
 b) What features or qualities a golfer should focus on and train to make it to the next level?
 
