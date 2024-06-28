@@ -60,13 +60,14 @@ The best model ended up being the Support Vector Machine. Note also that all mod
 It seems like our Support Vector model gives us the best results with an accuracy of 91.8%, which is very acceptable in our case. This would mean it would have predicted close to 28 players out of 30 every year to make it to the tour championship.
 
 The top 6 features are:
-  1- Strokes gained off the tee
-  2- Strokes gained on approach
-  3- Putting
-  4- Strokes gained around the green
-  5- Avoiding the rough
-  6- Carry Efficiency
+- 1- Strokes gained off the tee
+- 2- Strokes gained on approach
+- 3- Putting
+- 4- Strokes gained around the green
+- 5- Avoiding the rough
+- 6- Carry Efficiency
 
+![sorted_abs](https://github.com/sinclaireric77/Module20_CapstoneP1/assets/160784197/e0e9692b-263d-4c92-9445-c86c1f38d188)
 
 
 5th part – Deployment
