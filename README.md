@@ -70,7 +70,7 @@ The top 6 features are:
 ![sorted_abs](https://github.com/sinclaireric77/Module20_CapstoneP1/assets/160784197/e0e9692b-263d-4c92-9445-c86c1f38d188)
 
 
-5th part – Deployment
+6th part – Deployment
 So what does this mean in real terms?
 
 It looks like “strokes gained off the tee” is the most important features, but looking at other stats the distance (dd_rank) is not as important as avoiding the rough (dr_rough_p) and being efficient at keeping the ball in the fairway (dr_carry_eff). That means a golfer should focus more on accuracy off the tee versus trying to get more distance. This reflects really well for 2024 where the most successful golfer Scottie Scheffler is not the longest off the tee, but he's one of the most accurate.
