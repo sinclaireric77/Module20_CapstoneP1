@@ -56,9 +56,6 @@ In this section, I looked at different 4 models each (Logistic Regression, Decis
 Results:
 
 
-
-The best model ended up being the Support Vector Machine. Note also that all models ran roughly the same amount of time for total processing.
-
 ![results](https://github.com/user-attachments/assets/bb221794-f117-4edc-9787-47fd72011d27)
 
 So it looks like the SVM model is the best in terms of accuracy and precision and almost there with recall. So we'll evaluate the SVM model a little more int he following analysis.
