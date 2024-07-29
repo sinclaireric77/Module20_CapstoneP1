@@ -12,6 +12,7 @@ This is a summary of the work involved in this project. There are 6 parts to the
 There are a total of 5 files in this repository (1 readme.md; 1 jupyter notebook – Capstone_v03.ipynb in the main folder and 3 images in the images folder)
 The notebook can be found at: 
 
+https://github.com/sinclaireric77/Module_24_Capstone_Final/tree/main
 
 
 1st part – Business understanding
