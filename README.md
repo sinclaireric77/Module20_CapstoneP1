@@ -1,6 +1,6 @@
-# Module20_CapstoneP1
+# Module_24_Capstone_Final
 
-This is a short summary of the work involved in this project. There are 6 parts to the Jupyter Notebook.
+This is a summary of the work involved in this project. There are 6 parts to the Jupyter Notebook.
 
 - Business understanding
 - Data understanding
@@ -9,10 +9,10 @@ This is a short summary of the work involved in this project. There are 6 parts 
 - Evaluation
 - Deployment
 
-There are a total of 5 files in this repository (1 readme.md; 1 jupyter notebook – Capstone_v02.ipynb in the main folder and 3 images in the images folder)
+There are a total of 5 files in this repository (1 readme.md; 1 jupyter notebook – Capstone_v03.ipynb in the main folder and 3 images in the images folder)
 The notebook can be found at: 
 
-https://github.com/sinclaireric77/Module20_CapstoneP1/blob/main/Capstone_v02.ipynb
+
 
 1st part – Business understanding
 As an avid golfer and a 4 handicap, I understand the value of working on every part of the game. However, too many people focus only on specifics like hitting the ball as far as possible and neglect other parts of their training. Hiring a specialized coach is expensive, where do we put the efforts to have the biggest return? What aspect of the game should we work on first?
