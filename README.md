@@ -25,8 +25,13 @@ b) What features or qualities a golfer should focus on and train to make it to t
 
 2nd part – Data understanding
 The data comes from the PGA tour and is available for everyone to download at: https://www.pgatour.com/stats
+
+I also looked at Kaggle and other sources. There is some data in those but it’s not as complete as the PGA tour database. So, we’ll focus on the PGA one.
+
 There are tons of categories and data for the years from 2008 to 2024. Some categories have data older than that, but the target goes back to 2008 only. That's when the PGA tour initiated the tour championship where the 30 best players face off in a championship event. This is going to be our target.
+
 Based on all the features, did a player make it to the tour championship?
+
 On top of the target, we will use the following features to build our dataset:
 
 - Tee to green stats, which includes strokes gained off the tee, strokes gained on approach and strokes gained around the green
@@ -50,12 +55,13 @@ In this section, I looked at different 4 models each (Logistic Regression, Decis
 
 Results:
 
-- Logistic Regression, score of 91.2% with liblinear, l1 and C=0.5
-- Decision Tree, score of 86.1% with gini and max_depth = 4
-- KNN, score of 89.0% with distance and n_neighbors=12
-- SVM, score of 91.8% with linear and degree=2
+
 
 The best model ended up being the Support Vector Machine. Note also that all models ran roughly the same amount of time for total processing.
+
+![results](https://github.com/user-attachments/assets/bb221794-f117-4edc-9787-47fd72011d27)
+
+So it looks like the SVM model is the best in terms of accuracy and precision and almost there with recall. So we'll evaluate the SVM model a little more int he following analysis.
 
 5th part – Evaluation
 It seems like our Support Vector model gives us the best results with an accuracy of 91.8%, which is very acceptable in our case. This would mean it would have predicted close to 28 players out of 30 every year to make it to the tour championship.
